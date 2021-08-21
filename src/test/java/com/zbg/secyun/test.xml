@@ -1,0 +1,228 @@
+<entry xmlns="http://www.cnnvd.org.cn/vuln/1.0">
+    <name>Buffalo broadband routers 安全漏洞</name>
+    <vuln-id>CNNVD-202104-1998</vuln-id>
+    <published>2021-04-27</published>
+    <modified>2021-05-14</modified>
+    <source/>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <thrtype>远程或本地</thrtype>
+    <vuln-descript>Buffalo 固件是日本Buffalo公司的一个网络设备。
+        Buffalo broadband routers 存在安全漏洞，该漏洞源于允许未经身份验证的远程攻击者通过未指定的媒介获取信息，例如配置。以下产品及版本受到影响：BHR-4GRV firmware Ver.1.99 and prior, DWR-HP-G300NH firmware Ver.1.83 and prior, HW-450HP-ZWE firmware Ver.1.99 and prior, WHR-300HP firmware Ver.1.99 and prior, WHR-300 firmware Ver.1.99 and prior, WHR-G301N firmware Ver.1.86 and prior, WHR-HP-G300N firmware Ver.1.99 and prior, WHR-HP-GN firmware Ver.1.86 and prior, WPL-05G300 firmware Ver.1.87 and prior, WZR-450HP-CWT firmware Ver.1.99 and prior, WZR-450HP-UB firmware Ver.1.99 and prior, WZR-HP-AG300H firmware Ver.1.75 and prior, WZR-HP-G300NH firmware Ver.1.83 and prior, WZR-HP-G301NH firmware Ver.1.83 and prior, WZR-HP-G302H firmware Ver.1.85 and prior, WZR-HP-G450H firmware Ver.1.89 and prior, WZR-300HP firmware Ver.1.99 and prior, WZR-450HP firmware Ver.1.99 and prior, WZR-600DHP firmware Ver.1.99 and prior, WZR-D1100H firmware Ver.1.99 and prior, FS-HP-G300N firmware Ver.3.32 and prior, FS-600DHP firmware Ver.3.38 and prior, FS-R600DHP firmware Ver.3.39 and prior, and FS-G300N firmware Ver.3.13 and prior。</vuln-descript>
+    <vulnerable-configuration>
+        <cncpe operator="or" negate="false">
+            <cncpe-lang name="CPE:/o:buffalo:bhr-4grv_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:bhr-4grv_firmware:1.96:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:bhr-4grv_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:bhr-4grv:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:dwr-hp-g300nh_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:dwr-hp-g300nh_firmware:1.81:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:dwr-hp-g300nh_firmware:1.83:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:dwr-hp-g300nh:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:hw-450hp-zwe_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:hw-450hp-zwe_firmware:1.91:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:hw-450hp-zwe_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:hw-450hp-zwe:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-300hp_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-300hp_firmware:1.96:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-300hp_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:whr-300hp:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-300_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-300_firmware:1.96:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-300_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:whr-300:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-g301n_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-g301n_firmware:1.86:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:whr-g301n:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-hp-g300n_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-hp-g300n_firmware:1.96:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-hp-g300n_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:whr-hp-g300n:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-hp-gn_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:whr-hp-gn_firmware:1.86:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:whr-hp-gn:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wpl-05g300_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wpl-05g300_firmware:1.86:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wpl-05g300_firmware:1.87:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wpl-05g300:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp-cwt_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp-cwt_firmware:1.92:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp-cwt_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-450hp-cwt:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp-ub_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp-ub_firmware:1.96:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp-ub_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-450hp-ub:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-ag300h_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-ag300h_firmware:1.73:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-ag300h_firmware:1.75:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-hp-ag300h:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g300nh_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g300nh_firmware:1.81:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g300nh_firmware:1.83:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-hp-g300nh:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g301nh_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g301nh_firmware:1.81:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g301nh_firmware:1.83:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-hp-g301nh:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g302h_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g302h_firmware:1.83:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g302h_firmware:1.85:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-hp-g302h:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g450h_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g450h_firmware:1.87:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-hp-g450h_firmware:1.89:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-hp-g450h:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-300hp_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-300hp_firmware:1.96:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-300hp_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-300hp:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp_firmware:1.97:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-450hp_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-450hp:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-600dhp_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-600dhp_firmware:1.97:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-600dhp_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-600dhp:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-d1100h_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-d1100h_firmware:1.96:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:wzr-d1100h_firmware:1.99:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:wzr-d1100h:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-hp-g300n_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-hp-g300n_firmware:3.32:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:fs-hp-g300n:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-600dhp_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-600dhp_firmware:3.34:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-600dhp_firmware:3.39:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:fs-600dhp:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-r600dhp_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-r600dhp_firmware:3.39:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:fs-r600dhp:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-g300n_firmware:-:::"/>
+            <cncpe-lang name="CPE:/o:buffalo:fs-g300n_firmware:3.13:::"/>
+            <cncpe-lang name="CPE:/h:buffalo:fs-g300n:-:::"/>
+        </cncpe>
+    </vulnerable-configuration>
+    <vuln-software-list>
+        <product>CPE:/o:buffalo:bhr-4grv_firmware:-:::</product>
+        <product>CPE:/o:buffalo:bhr-4grv_firmware:1.96:::</product>
+        <product>CPE:/o:buffalo:bhr-4grv_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:bhr-4grv:-:::</product>
+        <product>CPE:/o:buffalo:dwr-hp-g300nh_firmware:-:::</product>
+        <product>CPE:/o:buffalo:dwr-hp-g300nh_firmware:1.81:::</product>
+        <product>CPE:/o:buffalo:dwr-hp-g300nh_firmware:1.83:::</product>
+        <product>CPE:/h:buffalo:dwr-hp-g300nh:-:::</product>
+        <product>CPE:/o:buffalo:hw-450hp-zwe_firmware:-:::</product>
+        <product>CPE:/o:buffalo:hw-450hp-zwe_firmware:1.91:::</product>
+        <product>CPE:/o:buffalo:hw-450hp-zwe_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:hw-450hp-zwe:-:::</product>
+        <product>CPE:/o:buffalo:whr-300hp_firmware:-:::</product>
+        <product>CPE:/o:buffalo:whr-300hp_firmware:1.96:::</product>
+        <product>CPE:/o:buffalo:whr-300hp_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:whr-300hp:-:::</product>
+        <product>CPE:/o:buffalo:whr-300_firmware:-:::</product>
+        <product>CPE:/o:buffalo:whr-300_firmware:1.96:::</product>
+        <product>CPE:/o:buffalo:whr-300_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:whr-300:-:::</product>
+        <product>CPE:/o:buffalo:whr-g301n_firmware:-:::</product>
+        <product>CPE:/o:buffalo:whr-g301n_firmware:1.86:::</product>
+        <product>CPE:/h:buffalo:whr-g301n:-:::</product>
+        <product>CPE:/o:buffalo:whr-hp-g300n_firmware:-:::</product>
+        <product>CPE:/o:buffalo:whr-hp-g300n_firmware:1.96:::</product>
+        <product>CPE:/o:buffalo:whr-hp-g300n_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:whr-hp-g300n:-:::</product>
+        <product>CPE:/o:buffalo:whr-hp-gn_firmware:-:::</product>
+        <product>CPE:/o:buffalo:whr-hp-gn_firmware:1.86:::</product>
+        <product>CPE:/h:buffalo:whr-hp-gn:-:::</product>
+        <product>CPE:/o:buffalo:wpl-05g300_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wpl-05g300_firmware:1.86:::</product>
+        <product>CPE:/o:buffalo:wpl-05g300_firmware:1.87:::</product>
+        <product>CPE:/h:buffalo:wpl-05g300:-:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp-cwt_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp-cwt_firmware:1.92:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp-cwt_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:wzr-450hp-cwt:-:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp-ub_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp-ub_firmware:1.96:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp-ub_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:wzr-450hp-ub:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-ag300h_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-ag300h_firmware:1.73:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-ag300h_firmware:1.75:::</product>
+        <product>CPE:/h:buffalo:wzr-hp-ag300h:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g300nh_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g300nh_firmware:1.81:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g300nh_firmware:1.83:::</product>
+        <product>CPE:/h:buffalo:wzr-hp-g300nh:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g301nh_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g301nh_firmware:1.81:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g301nh_firmware:1.83:::</product>
+        <product>CPE:/h:buffalo:wzr-hp-g301nh:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g302h_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g302h_firmware:1.83:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g302h_firmware:1.85:::</product>
+        <product>CPE:/h:buffalo:wzr-hp-g302h:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g450h_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g450h_firmware:1.87:::</product>
+        <product>CPE:/o:buffalo:wzr-hp-g450h_firmware:1.89:::</product>
+        <product>CPE:/h:buffalo:wzr-hp-g450h:-:::</product>
+        <product>CPE:/o:buffalo:wzr-300hp_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-300hp_firmware:1.96:::</product>
+        <product>CPE:/o:buffalo:wzr-300hp_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:wzr-300hp:-:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp_firmware:1.97:::</product>
+        <product>CPE:/o:buffalo:wzr-450hp_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:wzr-450hp:-:::</product>
+        <product>CPE:/o:buffalo:wzr-600dhp_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-600dhp_firmware:1.97:::</product>
+        <product>CPE:/o:buffalo:wzr-600dhp_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:wzr-600dhp:-:::</product>
+        <product>CPE:/o:buffalo:wzr-d1100h_firmware:-:::</product>
+        <product>CPE:/o:buffalo:wzr-d1100h_firmware:1.96:::</product>
+        <product>CPE:/o:buffalo:wzr-d1100h_firmware:1.99:::</product>
+        <product>CPE:/h:buffalo:wzr-d1100h:-:::</product>
+        <product>CPE:/o:buffalo:fs-hp-g300n_firmware:-:::</product>
+        <product>CPE:/o:buffalo:fs-hp-g300n_firmware:3.32:::</product>
+        <product>CPE:/h:buffalo:fs-hp-g300n:-:::</product>
+        <product>CPE:/o:buffalo:fs-600dhp_firmware:-:::</product>
+        <product>CPE:/o:buffalo:fs-600dhp_firmware:3.34:::</product>
+        <product>CPE:/o:buffalo:fs-600dhp_firmware:3.39:::</product>
+        <product>CPE:/h:buffalo:fs-600dhp:-:::</product>
+        <product>CPE:/o:buffalo:fs-r600dhp_firmware:-:::</product>
+        <product>CPE:/o:buffalo:fs-r600dhp_firmware:3.39:::</product>
+        <product>CPE:/h:buffalo:fs-r600dhp:-:::</product>
+        <product>CPE:/o:buffalo:fs-g300n_firmware:-:::</product>
+        <product>CPE:/o:buffalo:fs-g300n_firmware:3.13:::</product>
+        <product>CPE:/h:buffalo:fs-g300n:-:::</product>
+    </vuln-software-list>
+    <other-id>
+        <cve-id>CVE-2021-3511</cve-id>
+        <bugtraq-id/>
+    </other-id>
+    <refs>
+        <ref>
+            <ref-source>MISC</ref-source>
+            <ref-name/>
+            <ref-url>https://jvn.jp/en/vu/JVNVU99235714/index.html</ref-url>
+        </ref>
+        <ref>
+            <ref-source>MISC</ref-source>
+            <ref-name/>
+            <ref-url>https://www.buffalo.jp/news/detail/20210427-01.html</ref-url>
+        </ref>
+        <ref>
+            <ref-source>nvd.nist.gov</ref-source>
+            <ref-name/>
+            <ref-url>https://nvd.nist.gov/vuln/detail/CVE-2021-3511</ref-url>
+        </ref>
+        <ref>
+            <ref-source>jvndb.jvn.jp</ref-source>
+            <ref-name/>
+            <ref-url>https://jvndb.jvn.jp/en/contents/2021/JVNDB-2021-001381.html</ref-url>
+        </ref>
+    </refs>
+    <vuln-solution>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：
+        https://www.buffalo.jp/news/detail/20210427-01.html</vuln-solution>
+</entry>

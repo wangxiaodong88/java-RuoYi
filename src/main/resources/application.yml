@@ -1,0 +1,20 @@
+# MyBatis
+mybatis:
+  # 搜索指定包别名
+  typeAliasesPackage: com.zbg.secyun
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath:mapper/*Mapper.xml
+  # 加载全局的配置文件
+  # configLocation: classpath:mybatis/mybatis-config.xml
+  configuration:
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
+
+# 数据源配置
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.152:3306/secyun_zbg_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: admin
+    password: Admin12qwaszx
