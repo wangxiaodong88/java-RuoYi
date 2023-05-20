@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <mybatis.spring.boot.starter.version>2.1.4</mybatis.spring.boot.starter.version>
+        <mybatis.spring.boot.starter.version>2.3.1</mybatis.spring.boot.starter.version>
         <druid.version>1.2.4</druid.version>
         <jsoup.version>1.13.1</jsoup.version>
         <cdp4j.version>3.0.13</cdp4j.version>
